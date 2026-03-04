@@ -1,0 +1,112 @@
+body {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: white;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newtab-container {
+    width: 90%;
+    max-width: 1000px;
+    padding: 40px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0 0 10px 0;
+    font-weight: 300;
+}
+
+.date {
+    font-size: 1.2rem;
+    opacity: 0.8;
+    margin: 0;
+}
+
+.widgets-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.widget {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    min-height: 250px;
+}
+
+.widget h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.notes-content p {
+    white-space: pre-wrap;
+    line-height: 1.6;
+}
+
+.empty {
+    opacity: 0.6;
+    font-style: italic;
+}
+
+.sessions-list-newtab {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sessions-list-newtab li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.session-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.session-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.session-count {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-top: 4px;
+}
+
+.sessions-list-newtab button {
+    background: white;
+    color: #1e3c72;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.sessions-list-newtab button:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
