@@ -4,6 +4,11 @@ This project is a multi-feature Manifest V3 Chrome Extension built to enhance us
 
 ## 🚀 Features
 
+### ✨ Recent Updates
+- Migrated to React 18 and Webpack 5.
+- Implemented full Manifest V3 compatibility.
+- Added comprehensive Tab Session Management, Website Blocker, and Quick Notes features.
+
 ### 1. Tab Session Management
 Save all your currently open tabs as a named "Session" directly from the popup. You can view all saved sessions in the popup or on the new tab page, and restore them with a single click—which will open a new window containing all those tabs.
 
